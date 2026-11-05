@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="2.3+">
+  <info>
+    <name>Pioneer DDJ-FLX2</name>
+    <author>DDJ-FLX2 Mapping</author>
+    <description>Jog wheel mapping for the Pioneer DDJ-FLX2.</description>
+  </info>
+  <controller id="Pioneer DDJ-FLX2">
+    <scriptfiles>
+      <file filename="DDJ-FLX2.midi.js" functionprefix="FLX2"/>
+    </scriptfiles>
+    <controls>
+      <control>
+        <group>[Channel1]</group>
+        <key>FLX2.jog1</key>
+        <description>Deck 1 jog wheel, slow movement</description>
+        <status>0xB0</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>FLX2.jog1</key>
+        <description>Deck 1 jog wheel, fast movement</description>
+        <status>0xB0</status>
+        <midino>0x30</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>FLX2.jog2</key>
+        <description>Deck 2 jog wheel, slow movement</description>
+        <status>0xB0</status>
+        <midino>0x11</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>FLX2.jog2</key>
+        <description>Deck 2 jog wheel, fast movement</description>
+        <status>0xB0</status>
+        <midino>0x31</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+    </controls>
+  </controller>
+</MixxxControllerPreset>
